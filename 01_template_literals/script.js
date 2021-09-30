@@ -1,4 +1,4 @@
-username = "James"
+const username = "James"
 
 function getUserName() {
     // from the JSON string 
@@ -8,7 +8,7 @@ function getUserName() {
 
 // template = "<h2>Hello " + username + "</h2>" +
 // "<p>Welcome, to your homepage</p>"
-template = `<h2>Hello ${getUserName()}</h2>
+let template = `<h2>Hello ${getUserName()}</h2>
 <p>Welcome, to your homepage</p>
 ${1 === 1}
 ${2 + 4}
